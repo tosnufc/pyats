@@ -1,0 +1,25 @@
+---
+testbed:
+  name: NX-API Staging Lab
+  alias: Staging
+  credentials:
+    default:
+      username: admin
+      password: Admin_1234!
+devices:
+  nxos:
+    alias: n9kv-s1
+    type: switch
+    os: nxos
+    platform: n9k
+    connections:
+      default:
+        via: ssh
+      ssh:
+        protocol: ssh
+        ip: sbx-nxos-mgmt.cisco.com
+      rest:
+        class: rest.connector.Rest
+        protocol: https
+        ip: sbx-nxos-mgmt.cisco.com
+        verify: False

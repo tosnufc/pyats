@@ -1,0 +1,7 @@
+playground.py
+*.log
+.venv
+output.xml
+/pyats-ssh/results/
+/pyats-ssh/__pycache__/
+/ltrdcn-3903/__pycache__/
