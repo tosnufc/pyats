@@ -1,4 +1,5 @@
 playground.py
+playground2.py
 *.log
 .venv
 output.xml
